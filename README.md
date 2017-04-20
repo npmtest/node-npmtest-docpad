@@ -1,7 +1,10 @@
-# test coverage for  [docpad (v6.79.4)](https://github.com/docpad/docpad)  [![npm package](https://img.shields.io/npm/v/npmtest-docpad.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-docpad) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-docpad.svg)](https://travis-ci.org/npmtest/node-npmtest-docpad)
+# npmtest-docpad
+
+#### basic test coverage for  [docpad (v6.79.4)](https://github.com/docpad/docpad)  [![npm package](https://img.shields.io/npm/v/npmtest-docpad.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-docpad) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-docpad.svg)](https://travis-ci.org/npmtest/node-npmtest-docpad)
+
 #### DocPad is a dynamic static site generator. Write your content as files, or import your content from other external sources. Render the content with plugins. And deploy your static or dynamic website to your favourite hosting provider.
 
-[![NPM](https://nodei.co/npm/docpad.png?downloads=true)](https://www.npmjs.com/package/docpad)
+[![NPM](https://nodei.co/npm/docpad.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/docpad)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-docpad/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-docpad/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-docpad/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-docpad/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-docpad/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-docpad/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-docpad/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-docpad/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-docpad/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-docpad/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-docpad%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-docpad/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-docpad/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-docpad/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-docpad/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-docpad%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-docpad/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-docpad/build/test-report.html](https://npmtest.github.io/node-npmtest-docpad/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-docpad/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-docpad/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-docpad/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-docpad/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-docpad/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-docpad/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-docpad/build/screenCapture.npmPackageListing.svg)
 
@@ -28,7 +37,6 @@
 {
     "author": {
         "name": "2012+ Bevry Pty Ltd",
-        "email": "us@bevry.me",
         "url": "http://bevry.me"
     },
     "badges": {
@@ -73,22 +81,18 @@
     "contributors": [
         {
             "name": "Benjamin Lupton",
-            "email": "b@lupton.cc",
             "url": "http://balupton.com"
         },
         {
             "name": "Aaron Powell",
-            "email": "me@aaron-powell.com",
             "url": "http://www.aaron-powell.com"
         },
         {
             "name": "Adrian Olaru",
-            "email": "adrian.olaru@me.com",
             "url": "https://github.com/adrianolaru"
         },
         {
             "name": "Alex Mesarosh",
-            "email": "alex.mesarosh@meltmedia.com",
             "url": "https://github.com/amesarosh"
         },
         {
@@ -97,17 +101,14 @@
         },
         {
             "name": "Ivan Klimchuk",
-            "email": "ivan@klimchuk.com",
             "url": "http://klimchuk.com"
         },
         {
             "name": "Andrew Patton",
-            "email": "andrew@acusti.ca",
             "url": "http://www.acusti.ca"
         },
         {
             "name": "GÁBOR Áron Zsolt",
-            "email": "ashnur@gmail.com",
             "url": "http://ashnur.com"
         },
         {
@@ -120,7 +121,6 @@
         },
         {
             "name": "Changwoo Park",
-            "email": "pismute@gmail.com",
             "url": "http://pismute.github.io"
         },
         {
@@ -129,32 +129,26 @@
         },
         {
             "name": "Chase Colman",
-            "email": "chase@colman.io",
             "url": "https://github.com/chase"
         },
         {
             "name": "Lukasz Gornicki",
-            "email": "derberg@wp.pl",
             "url": "http://derberg.github.io/"
         },
         {
             "name": "eldios",
-            "email": "lele@amicofigo.com",
             "url": "https://github.com/eldios"
         },
         {
             "name": "sylee",
-            "email": "shiyung@gmail.com",
             "url": "blog.sylee.tw"
         },
         {
             "name": "Eduardo Lavaque",
-            "email": "me@greduan.com",
             "url": "http://greduan.com"
         },
         {
             "name": "Homme Zwaagstra",
-            "email": "hrz@geodata.soton.ac.uk",
             "url": "https://github.com/homme"
         },
         {
@@ -171,22 +165,18 @@
         },
         {
             "name": "Michael Duane Mooring",
-            "email": "Mike@mdm.cc",
             "url": "http://mdm.cc"
         },
         {
             "name": "Neil Taylor",
-            "email": "neil.t@myplanetdigital.com",
             "url": "www.myplanetdigital.com"
         },
         {
             "name": "Nathan Friedly",
-            "email": "first name @ website",
             "url": "http://nfriedly.com/"
         },
         {
             "name": "Nick Crohn",
-            "email": "nick.crohn+github@gmail.com",
             "url": "http://nickcrohn.com/"
         },
         {
@@ -195,7 +185,6 @@
         },
         {
             "name": "Paul Armstrong",
-            "email": "paul@paularmstrongdesigns.com",
             "url": "http://paularmstrongdesigns.com/"
         },
         {
@@ -204,7 +193,6 @@
         },
         {
             "name": "Pavan Gupta",
-            "email": "pg8p@virginia.edu",
             "url": "http://pavgup.io"
         },
         {
@@ -213,22 +201,18 @@
         },
         {
             "name": "Darío Villanueva",
-            "email": "dario@alolo.co",
             "url": "http://www.alolo.co"
         },
         {
             "name": "Richard A",
-            "email": "richard@antecki.id.au",
             "url": "https://github.com/rantecki"
         },
         {
             "name": "Rob Loach",
-            "email": "robloach@gmail.com",
             "url": "http://robloach.net"
         },
         {
             "name": "RueMic",
-            "email": "rumicdesign@gmail.com",
             "url": "http://www.ruemic.com"
         },
         {
@@ -237,7 +221,6 @@
         },
         {
             "name": "Sorin Ionescu",
-            "email": "sorin.ionescu@gmail.com",
             "url": "https://github.com/sorin-ionescu"
         },
         {
@@ -266,7 +249,6 @@
         },
         {
             "name": "Vladislav Botvin",
-            "email": "darkvlados@me.com",
             "url": "https://github.com/darky"
         },
         {
@@ -279,12 +261,10 @@
         },
         {
             "name": "Firede",
-            "email": "firede@firede.us",
             "url": "http://firede.us"
         },
         {
             "name": "JT Turner",
-            "email": "jtwebman@gmail.com",
             "url": "http://jtwebman.com"
         },
         {
@@ -293,7 +273,6 @@
         },
         {
             "name": "Bahtiar Gadimov",
-            "email": "bahtiar@gadimov.de",
             "url": "http://bahtiar.gadimov.de/"
         },
         {
@@ -310,12 +289,10 @@
         },
         {
             "name": "Prayag Verma",
-            "email": "prayag.verma@gmail.com",
             "url": "http://www.prayagverma.com/"
         },
         {
             "name": "Steve Mc",
-            "email": "contact@stevemcarthur.co.uk",
             "url": "http://www.stevemcarthur.co.uk"
         },
         {
@@ -324,7 +301,6 @@
         },
         {
             "name": "Prayag Verma",
-            "email": "prayag@stylifyyourblog.com",
             "url": "http://www.StylifyYourBlog.com/"
         }
     ],
@@ -453,29 +429,23 @@
     "main": "out/lib/docpad.js",
     "maintainers": [
         {
-            "name": "balupton",
-            "email": "b@lupton.cc"
+            "name": "balupton"
         },
         {
-            "name": "bevry",
-            "email": "us@bevry.me"
+            "name": "bevry"
         },
         {
-            "name": "mikeumus",
-            "email": "mike@mdm.cc"
+            "name": "mikeumus"
         },
         {
-            "name": "robloach",
-            "email": "robloach@gmail.com"
+            "name": "robloach"
         },
         {
-            "name": "stevemc",
-            "email": "contact@stevemcarthur.co.uk"
+            "name": "stevemc"
         }
     ],
     "name": "docpad",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/docpad/docpad.git"
